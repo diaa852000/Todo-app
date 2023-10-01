@@ -32,12 +32,12 @@ const Todo = ({ title, content, todoId}) => {
     return (
         <div className='bg-white border-b p-2 text-black md:w-2/3 flex justify-between items-center cursor-pointer hover:bg-gray-100'>
             <div className='flex items-center gap-4'>
-                <button 
+                {/* <button 
                     type='button'
                     onClick={handleComplete}
                 >
                     {isComplete ? <BsCheckCircle className='text-indigo-600'/> : <BsCircle className='text-indigo-600'/>}
-                </button>
+                </button> */}
                 <div>
                     <h2 className='font-semibold text-slate-600'>{title}</h2>
                     <p className='text-slate-500'>{content.substring(0,60)}</p>
