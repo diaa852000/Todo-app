@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from "react-redux";
-import { editTodo } from "../../redux/features/todos/todsSlice";
+import { editTodo } from "../../redux/features/todos/todsoThunk";
 import { useEffect } from "react";
 
 

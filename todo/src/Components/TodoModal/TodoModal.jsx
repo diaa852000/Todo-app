@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HiMiniXMark } from 'react-icons/hi2'
 import { useDispatch } from "react-redux";
-import { addTodo } from "../../redux/features/todos/todsSlice";
+import { addTodo } from "../../redux/features/todos/todsoThunk";
 
 const TodoModal = ({ isOpen, onClose }) => {
   const [title, setTitle] = useState('')
