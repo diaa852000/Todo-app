@@ -28,13 +28,13 @@ const Header = ({ children, openModal, closeModal, isOpenModal, onIsOpenChange})
 
     return (
         <div className='max-w-[1240px] mx-auto px-2 py-2 md:py-5'>
-            <h1 className='uppercase font-poppins font-semibold text-2xl text-center mt-3 mb-5 text-gray-500'>{children}</h1>
+            <h1 className='uppercase font-poppins font-semibold text-2xl text-center mt-3 mb-5 text-gray-500 dark:text-white'>{children}</h1>
             <div className='flex justify-center items-center'>
                 <input
                     type='search'
                     name="search"
                     placeholder='search'
-                    className='shadow-sm rounded-lg w-full md:w-2/5 placeholder:translate-y-[-1px] placeholder:text-lg'
+                    className='shadow-sm rounded-lg w-full md:w-2/5 placeholder:translate-y-[-1px] placeholder:text-lg dark:text-black'
                     onChange={(e) => setSearchData(e.target.value)}
                 />
                 <button
